@@ -1,0 +1,26 @@
+/* SOBRE NOSOTROS */
+
+.sobrenosotros {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.sobrenosotros p{
+    padding: 20px;
+}
+
+.sobrenosotros h1{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.sobrenosotros .quienes {
+    text-align: center;
+    padding: 5%;
+}
+
+.sobrenosotros .donde{
+    text-align: center;
+    padding: 5%;
+}

@@ -1,0 +1,25 @@
+/* CONTACTO */
+
+.container-form form .campo, textarea{
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 15px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    max-width: 530px;
+    min-width: 530px;
+    min-height: 150px;
+    max-height: 150px;
+    display: flex;
+    flex-direction: row;
+}
+
+.container-form .btn-enviar{
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    background-color: #076ce0;
+    color: white;
+    border-radius: 3px;
+}

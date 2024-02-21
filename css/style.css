@@ -1,41 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Roboto";
+  font-family: "Roboto", "Poppins";
 }
 
 @font-face {
   font-family: "Roboto";
   src: url(../assets/fonts/Roboto-Bold.ttf);
 }
+@font-face {
+  font-family: "Poppins";
+  src: url(../assets/fonts/Poppins-Bold.ttf);
+}
 body {
-  background-color: rgb(221, 221, 221);
+  background-color: #eae6e1;
 }
 
 /* HEADER */
-.bg-icecream {
-  background-color: #076ce0;
-  /* height: 80px; */
-  /* text-align:justify;
+header {
+  background-color: #004483;
   height: 80px;
+  width: 100%;
+  padding: 20px 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 70px; */
+  position: sticky;
+  top: 0;
 }
 
-/* .logo {
-    display: flex;
-    align-items: center;
-    color: #fff;
-} */
-/* header .logo img {
-    height: 80px;
-    width: 100px;
-    padding: 10px;
-    border-radius: 20%;
-} */
+header .navbar {
+  list-style: none;
+  margin-bottom: 0;
+}
+
+header .navbar li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header .navbar li a {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 500;
+}
+
+header .navbar li a:hover {
+  color: #66aae9;
+  transition: 0.3s;
+}
+
+header .navbar a.active {
+  color: #66aae9;
+}
+
+.logo {
+  font-size: 32px;
+  color: #fff;
+  font-weight: 700;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  background-color: #004483;
+  color: white;
+  padding-top: 10px;
+}
+
+footer .logoig {
+  width: 38px;
+  margin: 5px;
+}
+
+footer .logoface {
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer .logoig {
+  width: 32px;
+  height: 32px;
+  color: #fff;
+}
+
+footer .redes-icons {
+  padding: 5px;
+}
+
 /* MAIN */
 /* CONTAINER */
 .container {
@@ -69,8 +133,8 @@ body {
   transition: 0.7s;
 }
 
-/* OFERTAS */
-.ofertas {
+/* novedades */
+.novedades {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -78,58 +142,24 @@ body {
   justify-content: space-around;
 }
 
-.ofertas img {
+.novedades img {
   height: 370px;
 }
 
-g .card:hover {
+.container .card:hover {
   background-color: #c7c7d6;
 }
 
-/* DESTACADOS */
-.destacados {
+/* novedades */
+.novedades {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 
-.destacados img {
+.novedades img {
   height: 370px;
-}
-
-/* FOOTER */
-footer {
-  text-align: center;
-  background-color: #076ce0;
-  color: white;
-  padding-top: 10px;
-}
-
-footer .logoig {
-  width: 38px;
-  margin: 5px;
-}
-
-footer .logoface {
-  width: 38px;
-  height: 38px;
-  border-radius: 10px;
-  margin: 5px;
-}
-
-footer a {
-  text-decoration: none;
-}
-
-footer .logoig {
-  width: 32px;
-  height: 32px;
-  color: #fff;
-}
-
-footer .redes-icons {
-  padding: 5px;
 }
 
 /* PRODUCTOS */
@@ -186,6 +216,31 @@ footer .redes-icons {
   background-color: #076ce0;
   color: white;
   border-radius: 3px;
+}
+
+main .hero-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url("../assets/images/inquietos-l.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .hero-img .info {
+  color: white;
+}
+
+main .hero-img .info h1 {
+  font-size: 50px;
+  font-weight: 20px;
+  font-family: "Poppins";
+}
+
+main .container h2 {
+  font-family: "Libre Baskerville", serif;
+  font-size: 40px;
 }
 
 /*# sourceMappingURL=style.css.map */
