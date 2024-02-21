@@ -1,3 +1,5 @@
+// #nunitosans 
+
 * {
     padding: 0;
     margin: 0;
@@ -34,14 +36,6 @@ body {
     align-items: center;
     color: #fff;
 } */
-/* header .lista-nav{
-    display: inline-block;
-} */
-
-/* header .link-nav {
-    color: white;
-    padding-right: 30px;
-} */
 
 /* header .logo img {
     height: 80px;
@@ -49,7 +43,6 @@ body {
     padding: 10px;
     border-radius: 20%;
 } */
-
 /* MAIN */
 
 
@@ -96,7 +89,7 @@ body {
 
 .ofertas img{
     height: 370px;
-}
+}g
 
 .card:hover{
     background-color: #c7c7d6;
@@ -136,6 +129,11 @@ footer .logoface{
 footer a{
     text-decoration: none;
 }
+footer .logoig{
+    width: 32px;
+    height: 32px;
+    color: #fff;
+}
 
 footer .redes-icons{
     padding: 5px;
@@ -173,9 +171,6 @@ footer .redes-icons{
     padding: 5%;
 }
 
-
-
-
 /* CONTACTO */
 
 .container-form form .campo, textarea{
@@ -201,19 +196,3 @@ footer .redes-icons{
     color: white;
     border-radius: 3px;
 }
-
-/* MAYORISTAS */
-
-/* .container-form .crear{
-    width: 100%;
-    padding: 15px 10px;
-    font-size: 15px;
-    border: 1px solid black;
-    margin-bottom: 20px;
-    border-radius: 3px;
-    max-width: 530px;
-    min-width: 530px;
-    min-height: 150px;
-    max-height: 150px;
-    display: flex;
-} */
