@@ -11,40 +11,43 @@ header {
     // z-index: 100;
     position: sticky;
     top: 0;
+
+    .navbar {
+        list-style: none;
+        margin-bottom: 0;
+            li {
+                display: inline-block;
+                padding: 0 20px;
+                a{
+                    font-size: 18px;
+                    color:#fff;
+                    font-weight: 500;
+                    &:hover{
+                        color:#66aae9;
+                        transition: 0.3s;
+                    }
+                    &.active{
+                        color:#66aae9;
+                    }
+                }
+        }
+        }
+        
+    a{
+        text-decoration: none;
+    }
+
+    .logo {
+        font-size: 32px;
+        color: #fff;
+        font-weight: 700;
+    } 
 }
 
-header .navbar {
-    list-style: none;
-    margin-bottom: 0;
-}
 
-header .navbar li{
-    display: inline-block;
-    padding: 0 20px;
-}
-header a{
-    text-decoration: none;
-}
 
-header .navbar li a{
-    font-size: 18px;
-    color:#fff;
-    font-weight: 500;
-}
 
-header .navbar li a:hover{
-    color:#66aae9;
-    transition: 0.3s;
-}
-header .navbar a.active{
-    color:#66aae9;
-}
 
-.logo {
-    font-size: 32px;
-    color: #fff;
-    font-weight: 700;
-} 
 
 // header .logo img {
 //     height: 80px;

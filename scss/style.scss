@@ -23,16 +23,14 @@ main .hero-img{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-main .hero-img .info{
-    color: white;
-}
-
-main .hero-img .info h1{
-    font-size: 50px;
-    font-weight: 20px;
-    font-family: "Poppins";
+    .info{
+        color: white;
+        h1{
+            font-size: 50px;
+            font-weight: 20px;
+            font-family: "Poppins";
+        }
+    }
 }
 
 main .container h2 {

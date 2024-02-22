@@ -1,25 +1,75 @@
 /* CONTACTO */
+.contacto{
+    h1 {
+        font-family: "Libre Baskerville", serif;
+        text-align: center;
+        font-size: 3em;
+    }
 
-.container-form form .campo, textarea{
-    width: 100%;
-    padding: 15px 10px;
-    font-size: 15px;
-    border: 1px solid black;
-    margin-bottom: 20px;
-    border-radius: 3px;
-    max-width: 530px;
-    min-width: 530px;
-    min-height: 150px;
-    max-height: 150px;
-    display: flex;
-    flex-direction: row;
+    .contact-form {
+        color: #fff;
+        max-width: 1170px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 1.5em;
+        background-color: $subColor;
+            form {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                p{
+                margin: 0;
+                padding: 1em;
+                font-family: "Poppins";
+                button, input, textarea{
+                    width: 100%;
+                    padding: .7em;
+                    border: none;
+                    background: none;
+                    outline: none;
+                    border-bottom: 1px solid $mainColor;
+                    color: #fff;
+                    font-family: "Poppins";
+                }
+
+                button{
+                    background-color:$mainColor;
+                    border: 0;
+                    text-transform: uppercase;
+                    padding: 1em;
+                    color: #000;
+                    &:hover, &focus{
+                        background-color: $mainColor;
+                    }
+                }
+                }
+
+            }
+        }
+    }
+    .contact-info{
+        background-color: $mainColor;
+
+        text-align: center;
+        h4,ul,p{
+            text-align: center;
+            margin: 0 0 1rem 0;
+        }
+        ul{
+            list-style: none;
+            padding: 0;
+            li{
+                padding: 3em;
+            }
+        }
+    
+    
 }
 
-.container-form .btn-enviar{
-    padding: 15px;
-    font-size: 16px;
-    border: none;
-    background-color: #076ce0;
-    color: white;
-    border-radius: 3px;
+.contact-info ul li svg{
+    height: 20px;
+    width: 20px;
 }
+.contact-form form .block{
+    grid-column: 1/3;
+}
+

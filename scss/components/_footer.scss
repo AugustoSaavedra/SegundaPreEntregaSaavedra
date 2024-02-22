@@ -4,27 +4,24 @@ footer{
     background-color:$mainColor;
     color: white;
     padding-top: 10px;
-}
-footer .logoig {
-    width: 38px;
-    margin: 5px;
-}
-footer .logoface{
-    width: 38px;
-    height: 38px;
-    border-radius: 10px;
-    margin: 5px;
+
+    .logoig {
+        width: 38px;
+        margin: 5px;
+    }
+
+    .logos{
+        width: 38px;
+        height: 38px;
+        border-radius: 10px;
+        margin: 5px;
+        fill: $subColor;
+    }
+    a{
+        text-decoration: none;
+    }
+    .redes-icons{
+        padding: 5px;
+    }
 }
 
-footer a{
-    text-decoration: none;
-}
-footer .logoig{
-    width: 32px;
-    height: 32px;
-    color: #fff;
-}
-
-footer .redes-icons{
-    padding: 5px;
-}
