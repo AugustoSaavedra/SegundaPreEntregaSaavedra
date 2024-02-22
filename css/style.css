@@ -102,33 +102,41 @@ footer .redes-icons {
 }
 
 /* CONTAINER */
-.container {
+.max-container {
   display: flex;
   flex-direction: column;
   padding: 10px;
-  margin: 5px;
+  /* novedades */
 }
-.container h2, .container h3 {
+.max-container h2, .max-container h3 {
   text-align: center;
   padding: 20px;
   font-size: 30px;
 }
-.container .card-body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-/* novedades */
-.novedades {
+.max-container .novedades {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  padding-bottom: 50px;
-  justify-content: space-around;
+  gap: 20px;
+  justify-content: space-evenly;
+  align-items: center;
 }
-.novedades img {
+.max-container .novedades img {
   height: 370px;
+  object-fit: cover;
+}
+.max-container .card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid black;
+  padding: 5px;
+  width: 400px;
+}
+.max-container .card-container .info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* PRODUCTOS */
