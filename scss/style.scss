@@ -11,29 +11,7 @@
 @import 'layout/sobrenosotros';
 @import 'layout/contacto';
 @import 'layout/mayoristas';
+@import 'layout/mediaqueries';
 
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
 
-// HERO
-main .hero-img{
-    background-image: linear-gradient(rgba(0,0,0, 0.7),rgba(0,0,0, 0.9)), url("../assets/images/inquietos-l.jpg");
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    .info{
-        color: white;
-        h1{
-            font-size: 50px;
-            font-weight: 20px;
-            font-family: "Poppins";
-        }
-    }
-}
-
-main .container h2 {
-    font-family: "Libre Baskerville", serif;
-    font-size: 40px;
-}
