@@ -18,31 +18,29 @@
 
 <body>
     <!-- HEADER -->
-    <header>
-        <a href="#" class="logo">Inquietos</a>
-        <nav>
-            <ul class="navbar">
-                <li><a href="index.html" class="active">Inicio</a></li>
-                <li><a href="pages/productos.html">Productos</a></li>
-                <li><a href="pages/sobrenosotros.html">Sobre Nosotros</a></li>
-                <li><a href="pages/contacto.html">Contacto</a></li>
-                <li><a href="pages/mayoristas.html">Mayorista</a></li>
-            </ul>
-        </nav>
-         <!-- bs -->
-        <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
-            <div class="bg-light p-4">
-              <h5 class="text-body-emphasis h4">Collapsed content</h5>
-              <span class="text-body-secondary">Toggleable via the navbar brand.</span>
+    
+    <header class="navbar bg-icecream sticky-top navbar-expand-lg" >
+        <div class="container-fluid">
+            <a href="#" class="logo">Inquietos</a>
+          <button class="navbar-toggler bg-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header text-light">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menú</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1">
+                    <li><a href="index.html" class="active">Inicio</a></li>
+                    <li><a href="pages/productos.html">Productos</a></li>
+                    <li><a href="pages/sobrenosotros.html">Sobre Nosotros</a></li>
+                    <li><a href="pages/contacto.html">Contacto</a></li>
+                    <li><a href="pages/mayoristas.html">Mayorista</a></li>
+                </ul>
             </div>
           </div>
-          <nav class="navbar navbar-dark bg-dark">
-            <div class="container-fluid">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-            </div>
-          </nav>
+        </div>
     </header>
 
     <!-- MAIN -->
