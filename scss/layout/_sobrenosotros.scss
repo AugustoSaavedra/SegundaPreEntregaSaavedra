@@ -1,11 +1,29 @@
 /* SOBRE NOSOTROS */
+.hero-img-sn{
+    background-image: linear-gradient(rgba(0,0,0, 0.7),rgba(0,0,0, 0.9)), url("../assets/images/inquietos-frente.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    .info{
+        color: white;
+        h1{
+            font-size: 50px;
+            font-weight: 20px;
+            font-family: "Poppins" sans-serif;
+        }
+    }
+} 
 
 .sobrenosotros {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
 
     p{
+        font-size: larger;
         padding: 20px;
     }
     
@@ -22,6 +40,10 @@
     .donde{
         text-align: center;
         padding: 5%;
+        iframe{
+            width: 100%;
+            height: 450px;
+        }
     }
 }
 

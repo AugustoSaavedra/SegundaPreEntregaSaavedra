@@ -1,4 +1,41 @@
 /* PRODUCTOS */
-.container button{
-    align-self: start;
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+    .novedades{
+        padding-top: 10px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 20px;
+        justify-content: space-evenly;
+        align-items: center;
+        img{
+            height: 370px;
+            object-fit: cover;
+        }
+    }
+    button{
+        align-self: start;
+    }
 }
+
+.hero-img-product{
+    background-image: linear-gradient(rgba(0,0,0, 0.7),rgba(0,0,0, 0.9)), url("../assets/images/buzo-oxford.jpg");
+    background-position: center;
+    background-size: 1500px;
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    .info{
+        color: white;
+        h1{
+            font-size: 50px;
+            font-weight: 20px;
+            font-family: "Poppins" sans-serif;
+        }
+    }
+} 

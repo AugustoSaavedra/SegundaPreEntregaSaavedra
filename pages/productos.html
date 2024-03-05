@@ -11,79 +11,92 @@
 
 <body>
     <!-- HEADER -->
-    <header>
-    <a href="#" class="logo">Inquietos</a>
-    <nav>
-      <ul class="navbar">
-        <li><a href="../index.html" class="active">Inicio</a></li>
-        <li><a href="productos.html">Productos</a></li>
-        <li><a href="sobrenosotros.html">Sobre Nosotros</a></li>
-        <li><a href="contacto.html">Contacto</a></li>
-        <li><a href="mayoristas.html">Mayorista</a></li>
-      </ul>
-    </nav>
-  </header>
-
+    <header class="navbar bg-icecream sticky-top navbar-expand-lg" >
+        <div class="container-fluid">
+            <a href="#" class="logo">Inquietos</a>
+          <button class="navbar-toggler bg-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header text-light">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menú</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1">
+                    <li><a href="../index.html" class="active">Inicio</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="sobrenosotros.html">Sobre Nosotros</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="mayoristas.html">Mayorista</a></li>
+                </ul>
+            </div>
+          </div>
+        </div>
+    </header>
+    
     <!-- MAIN -->
     <main>
+        <!-- hero -->
+        <section class="hero-img-product">
+            <article class="info">
+                <h1>Productos</h1>
+            </article>
+        </section>
+
         <section class="container">
-            <!-- OFERTAS -->
-            <h1> Nuestros productos </h1>
+            <h2> Nuestros productos </h2>
             <a href="#" class="btn btn-primary align-self-start">Filtro</a>
-            <article class="ofertas">
+            <article class="novedades">
                 <!-- card 1 -->
-                <div class="card">
-                    <img src="../assets/images/jean.jpg" class="card-img-top" alt="jean">
-                    <div class="card-body">
+                <div class="card-container">
+                    <img src="../assets/images/jean.jpg" class="card-img-top" alt="jean" />
+                    <div class="info-container">
                         <h6>Jean</h6>
                         <p class="card-text">$1000</p>
                         <a href="#" class="btn btn-primary">Comprar</a>
                     </div>
                 </div>
                 <!-- card 2 -->
-                <div class="card">
-                    <img src="../assets/images/pollerajean.jpg" class="card-img-top" alt="pollera-de-jean">
-                    <div class="card-body">
+                <div class="card-container">
+                    <img src="../assets/images/pollerajean.jpg" class="card-img-top" alt="pollera-de-jean" />
+                    <div class="info-container">
                         <h6>Pollera de Jean</h6>
                         <p class="card-text">$2000</p>
                         <a href="#" class="btn btn-primary">Comprar</a>
                     </div>
                 </div>
                 <!-- card 3 -->
-                <div class="card">
-                    <img src="../assets/images/remera.jpg" class="card-img-top" alt="remera de mujer">
-                    <div class="card-body">
+                <div class="card-container">
+                    <img src="../assets/images/remera.jpg" class="card-img-top" alt="remera de mujer" />
+                    <div class="info-container">
                         <h6>Remera</h6>
                         <p class="card-text">$3000</p>
                         <a href="#" class="btn btn-primary">Comprar</a>
                     </div>
                 </div>
-            </article>
-            <!-- DESTACADOS -->
-
-            <article class="destacados">
                 <!-- card 4 -->
-                <div class="card">
-                    <img src="../assets/images/pollera.jpg" class="card-img-top" alt="pollera">
-                    <div class="card-body">
+                <div class="card-container">
+                    <img src="../assets/images/pollera.jpg" class="card-img-top" alt="pollera" />
+                    <div class="info-container">
                         <h6>Pollera</h6>
                         <p class="card-text">$4000</p>
                         <a href="#" class="btn btn-primary">Comprar</a>
                     </div>
                 </div>
                 <!-- card 5 -->
-                <div class="card">
-                    <img src="../assets/images/pijama.jpg" class="card-img-top" alt="pijama">
-                    <div class="card-body">
+                <div class="card-container" >
+                    <img src="../assets/images/pijama.jpg" class="card-img-top" alt="pijama" />
+                    <div class="info-container">
                         <h6>Pijama</h6>
                         <p class="card-text">$5000</p>
                         <a href="#" class="btn btn-primary">Comprar</a>
                     </div>
                 </div>
                 <!-- card 6 -->
-                <div class="card">
-                    <img src="../assets/images/hombreropa1.jpg" class="card-img-top" alt="ropa-de-hombre">
-                    <div class="card-body">
+                <div class="card-container">
+                    <img src="../assets/images/hombreropa1.jpg" class="card-img-top" alt="ropa-de-hombre" />
+                    <div class="info-container">
                         <h6>Camisa</h6>
                         <p class="card-text">$6000</p>
                         <a href="#" class="btn btn-primary">Comprar</a>
