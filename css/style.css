@@ -257,7 +257,6 @@ main .hero-img .info h1 {
   margin-bottom: 40px;
 }
 .contacto h1 {
-  font-family: "Libre Baskerville", serif;
   text-align: center;
   font-size: 3em;
 }
@@ -311,25 +310,20 @@ main .hero-img .info h1 {
 .contact-info ul li {
   padding: 0.3em;
 }
+.contact-info img {
+  height: 100px;
+}
+.contact-info .logo-info {
+  fill: #66aae9;
+}
 
 .contact-info ul li svg {
-  height: 60px;
-  width: 60px;
-}
-.contact-info ul li svg path {
-  width: 100%;
+  height: 50px;
+  width: 50px;
 }
 
 .contact-form form .block {
   grid-column: 1/3;
-}
-
-.logos {
-  width: 38px;
-  height: 38px;
-  border-radius: 10px;
-  margin: 5px;
-  fill: #66aae9;
 }
 
 @media (max-width: 700px) {
@@ -338,13 +332,16 @@ main .hero-img .info h1 {
     grid-template-columns: 1fr;
   }
 }
+@media (max-width: 700px) {
+  .container .novedades {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
 @media (min-width: 700px) {
   .container-form {
     display: grid;
     grid-template-columns: 2fr 1fr;
-  }
-  .container-form * {
-    padding: 20px;
   }
   .contact-info h4, .contact-info ul, .contact-info p {
     padding: 20px;

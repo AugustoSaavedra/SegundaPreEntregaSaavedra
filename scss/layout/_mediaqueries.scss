@@ -8,15 +8,23 @@
     }
     
 }
-
+// Productos
+@media (max-width: 700px) {
+    .container{
+        .novedades{
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+    }
+}
 // Contacto
 @media (min-width: 700px) {
     .container-form{
         display: grid;
         grid-template-columns: 2fr 1fr;
-        *{
-            padding: 20px;
-        }
+        // *{
+        //     padding: 20px;
+        // }
     }
     .contact-info{
         h4,ul,p{
