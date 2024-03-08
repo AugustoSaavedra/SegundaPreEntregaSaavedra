@@ -16,6 +16,12 @@ header {
     .offcanvas{
         background-color:$mainColor;
     }
+    .container-fluid{
+        button{
+            background-color: $subColor;
+            
+        }
+    }
     .navbar-nav {
         list-style: none;
         margin-bottom: 0;
@@ -48,6 +54,11 @@ header {
             font-size: 32px;
             color: #fff;
             font-weight: 700;
+        }
+        .logo-img{
+            height: 70px;
+            padding: 0 10px;
+            border-radius: 20px;
         } 
     }
     

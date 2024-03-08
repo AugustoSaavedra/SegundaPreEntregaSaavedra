@@ -6,7 +6,10 @@
     <title>Mayoristas</title>
     <link rel="stylesheet" href="../css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- icon -->
+    <link rel="icon" href="../assets/images/inquietos.ico">
 </head>
+
 <body>
     <!-- HEADER -->
     <header class="navbar bg-icecream sticky-top navbar-expand-lg" >
@@ -35,33 +38,25 @@
     
     <!-- MAIN -->
     <main>
-        <section class="container-form">
-            <h2>Crea tu cuenta Mayorista</h2>
-            <form action="#" class="crear">
-                <label for="nombre">Nombre y Apellido:</label>
-                <input type="text" name="nombre" placeholder="Ingresa tu nombre" class="campo">
-                <label for="nombre-usuario">Usuario:</label>
-                <input type="text" name="nombre-usuario" placeholder="Ingresa tu nombre de usuario" class="campo">
-                <label for="contraseña">Contraseña:</label>
-                <input type="password" name="contraseña" placeholder="Ingrese su contraseña" class="campo">
-                <label for="email">Email:</label>
-                <input type="email" name="email" placeholder="Ingresa tu correo electronico" class="campo">
-                <label for="direccion">Direccion:</label>
-                <input type="text" name="direccion" placeholder="Ingrese su direccion" class="campo">
-                <label for="dni">DNI:</label>
-                <input type="text" name="dni" placeholder="Ingrese su DNI" class="campo">
-                <label for="mensaje">Mensaje (opcional):</label>
-                <textarea name="mensaje" placeholder="Ingresa tu mensaje (opcional)"></textarea>
-                <input type="submit" name="enviar" value="Enviar" class="btn-enviar">
-            </form>
+        <section class="max-container-mayo">
+            <article class="container-mayo">
+                <h2>Inicio de sesión</h2>
+                <form action="#" class="iniciar">
+                    <div class="usuario">
+                        <label for="nombre-usuario"> <b>Usuario:</b></label>
+                        <input type="text" name="nombre-usuario" placeholder="Ingrese su nombre de usuario" class="campo">
 
-            <form action="#" class="iniciar">
-                <label for="nombre-usuario">Usuario:</label>
-                <input type="text" name="nombre-usuario" placeholder="Ingresa tu nombre de usuario" class="campo">
-                <label for="contraseña">Contraseña:</label>
-                <input type="password" name="contraseña" placeholder="Ingrese su contraseña" class="campo">
-                <input type="submit" name="enviar" value="Enviar" class="btn-enviar">
-            </form>
+                    </div>
+                    <div class="contrasena">
+                        <label for="contrasena"><b>Contraseña:</b></label>
+                        <input type="password" name="contraseña" placeholder="Ingrese su contraseña" class="campo">
+                    </div>
+                    <div class="recordar">
+                        <a href="#">¿Olvidaste tu contraseña?</a>
+                    </div>
+                    <input type="submit" name="enviar" value="Iniciar" class="btn-enviar">
+                </form>
+            </article>
         </section>
     </main>
 

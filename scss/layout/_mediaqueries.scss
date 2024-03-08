@@ -10,13 +10,14 @@
 }
 // Productos
 @media (max-width: 700px) {
-    .container{
+    .product-container{
         .novedades{
             display: grid;
             grid-template-columns: 1fr;
         }
     }
 }
+
 // Contacto
 @media (min-width: 700px) {
     .container-form{
@@ -32,8 +33,9 @@
             text-align: left;
         }
     }
+    
 }
-
+// Sobre Nosotros
 @media (max-width: 820px){
     .sobrenosotros{
         display: flex;

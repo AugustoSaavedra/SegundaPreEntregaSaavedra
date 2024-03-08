@@ -1,0 +1,77 @@
+.max-container-mayo{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;    
+    background: linear-gradient(150deg,$mainColor,white);
+    height: 80vh;
+    align-items: center;
+
+    .container-mayo{
+        width: 400px;
+        border-radius: 10px;
+        color: #fff;
+        background-color: $subColor;
+        height: 500px;
+        h2{
+            text-align: center;
+            padding: 20px ;
+            border-bottom: 1px solid black;
+            font-size: 35px;
+        }
+
+        form{
+            display: grid;
+            grid-template-columns: 1fr;
+            padding: 30px 40px;
+            gap: 30px;
+            // box-sizing: border-box;
+            input{
+                width: 100%;
+                padding: .7em;
+                border: none;
+                background: none;
+                outline: none;
+                border-bottom: 1px solid $mainColor;
+                color: #fff;
+                font-family: "Poppins";
+            }
+            .btn-enviar{
+                    background-color:$mainColor;
+                    border: 0;
+                    text-transform: uppercase;
+                    padding: 1em;
+                    color: #fff;
+                    height: 50px;
+                    
+                    border-radius: 25px;
+                    // .usuario{
+                        //     border-bottom: 2px solid black;
+                        //     margin: 30px 0;
+                        //     input{
+                            //         width: 100%;
+                            //         padding: 0 5px;
+                            //         height: 40px;
+                            //         // font-size: 16px;
+                            //         border: none;
+                            //         background: none;
+                            //     }
+                            // }
+                        }
+                    }
+            .recordar{
+                a{
+                    text-decoration: none;
+                    color: $mainColor;
+                }
+            }
+                    
+    .iniciar{
+        display: grid;
+        // background-color: $subColor;s
+    }
+}
+}
+.btn-enviar:hover{
+    border-color: #fff;
+    transition: 0.5s;
+}
